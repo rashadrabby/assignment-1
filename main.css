@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 255, 233, 0.212);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+/*First Part*/
+.top{
+    display: flex;
+    margin-bottom: 150px;
+}
+.left-part{
+    width: 40cm;
+    padding:100px;  
+}
+.title{
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-left: 4px solid rgb(241, 129, 0);
+    padding-left: 10px;
+}
+.contrast{
+    color: rgb(192, 24, 114);
+}
+
+.btn a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 650;
+    color: honeydew;
+    padding: 12px 30px;
+    border-radius: 5px;
+    background-color: rgb(253, 107, 62);
+    box-shadow: 4px 4px 12px gray;
+}
+.top-img img{
+    width:60%;
+    float: right;
+    padding-right: 100px;   
+}
+/*Second Part*/
+.mission-title{
+    text-align: center;
+    font-size: 30px;
+}
+.column{
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+}
+.all-mission{
+    width: 300px;
+    margin-left: 30px;
+    padding:20px;
+    border-radius: 25px;
+    box-shadow: 10px 15px 20px darkgray;
+}
+.all-mission.green{
+    background-color: rgba(137, 252, 92, 0.315);
+}
+.all-mission.red{
+    background-color: rgba(251, 115, 103, 0.404);
+}
+.all-mission.blu{
+    background-color: rgba(58, 54, 250, 0.274);
+}
+
+.all-mission img{
+    width: 150px;
+}
+.person-dev img{
+    width:60%;
+    float: left;
+    padding-left: 200px;
+}
+.develop{
+    display: flex;
+    margin: 100px 0;
+    background-image: url(img/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: 100px 40px;
+}
+.dev-title{
+    width: 8cm;
+    font-size: 35px;
+}
+.right-part{
+    width: 100%;
+    padding:50px 200px 50px 0px;  
+}
+.last-part{
+    display: flex;
+    padding-bottom: 120px;
+    background-image: url(img/shapes/shape-6.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: right;
+    background-position-y: 250px;
+}
+.left-end{
+    width: 100%;
+    padding:30px 0px 0px 150px; 
+}
+.com-title{
+    font-size: 35px;
+    
+}
+.project-img img{
+    width:60%;
+    float: right;
+    padding-right: 150px;
+}
+/* End Of Main Part*/
+.app-title{
+    text-align: center;
+    font-size: 45px;
+}
+.extra-part{
+    display: flex;
+    padding: 100px 100px 20px;
+}
+.ex-right{
+    width: 100%;    
+}
+.app-heading{
+    font-size: 30px;
+}
+.app-img img{
+    width: 100%;      
+}
+/*End of Extra Part*/
+footer {
+    color: white;
+     background-color: black;
+     text-align:center;
+     height: 140px;
+     padding:20px 0px;
+     
+  }
+  footer h2{
+      font-size: 35px;
+      font-family: 'Yellowtail', cursive;
+  }
+  .year{
+      color: rgb(252, 32, 32);
+  }
